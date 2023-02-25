@@ -19,9 +19,8 @@ function App() {
   }, [])
 
   return (
-    <div className="App w-[100vw] h-[100vh]-x-hidden p-[2rem]">
-      <h1 className='text-3xl font-[600] text-center '>FATHER AND SON BUSINESS ENTERPRISE</h1>
-      <p className='text-2xl font-[600] text-center mb-[2rem]'>Employee's information</p>
+    <div className="App w-[100vw] h-[100vh]-x-hidden flex justify-center items-center">
+
     {randomUser.length === 0 ? (
       "Loading..."
     ): (
@@ -38,10 +37,13 @@ function App() {
         cell={random.cell}
         age={random.dob.age}
         gender={random.gender}
-        dob={random.dob.date}      
+        dob={random.dob.date}  
+        // location={random.location.street}    
        />
       )
       )}
+
+      <button onClick={() => FetchRandomUsers()} className='w-[auto] h-[auto] rounded-full border px-[2rem] py-[1rem] text-white bg-[black] mt-[1rem]'>Generate new user</button>
     </div>
     )}
       

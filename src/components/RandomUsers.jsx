@@ -3,8 +3,9 @@ import React from 'react'
 const RandomUsers = (props) => {
     
   return (
-    <div className='w-[30rem] h-[auto] px-[4rem] py-[2rem]' style={{border:"0.1rem solid black"}}>
+    <div className='w-[auto] h-[auto] px-[4rem] py-[2rem]' style={{border:"0.1rem solid black"}}>
 
+        <h1 className='text-3xl font-[700] text-center '>RANDOM USER GENERATOR</h1>
         <div className='leading-[3rem] font-[400] text-[1.2rem]'>
             <img src={props.img} alt="" className='my-[2rem]' />
             <div className='flex gap-[0.5rem]'>
