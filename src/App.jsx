@@ -38,7 +38,11 @@ function App() {
         age={random.dob.age}
         gender={random.gender}
         dob={random.dob.date}  
-        // location={random.location.street}    
+        number={random.location.street.number} 
+        StrName={random.location.street.name} 
+        city={random.location.city}
+        state={random.location.state}
+        postcode={random.location.postcode}  
        />
       )
       )}

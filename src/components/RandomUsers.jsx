@@ -8,14 +8,24 @@ const RandomUsers = (props) => {
         <h1 className='text-3xl font-[700] text-center '>RANDOM USER GENERATOR</h1>
         <div className='leading-[3rem] font-[400] text-[1.2rem]'>
             <img src={props.img} alt="" className='my-[2rem]' />
+
             <div className='flex gap-[0.5rem]'>
             <p>Name: {props.title},</p>
             <p>{props.firstName}</p>
             <p>{props.lastName}</p>
             </div>
+
             <p>Gender: {props.gender}</p>
             <p>Age: {props.age}</p>
-            <p>Address: {props.location}</p>
+
+            <div className='flex gap-[0.5rem]'>
+            <p>Address: {props.number},</p>
+            <p>{props.StrName},</p>
+            <p>{props.city}</p>
+            <p>{props.state},</p>
+            <p>{props.postcode}.</p>
+            </div>
+
             <p>Email: {props.email}</p>
             <p>D.O.B: {props.dob}</p>
             <p>Phone: {props.phone}</p>
