@@ -44,6 +44,7 @@ function App() {
         state={random.location.state}
         postcode={random.location.postcode}  
         nat={random.nat}
+        // handleClick ={() => FetchRandomUsers()}
        />
       )
       )}

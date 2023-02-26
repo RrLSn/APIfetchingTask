@@ -35,6 +35,8 @@ const RandomUsers = (props) => {
             <p>D.O.B: {dateOb === false ? subStr(props.dob): props.dob}</p>
             <p>Phone: {props.phone}</p>
             <p>Cell: {props.cell}</p>
+
+            {/* <button onClick={props.handleClick} className='w-[auto] h-[auto] rounded-full border px-[2rem] py-[1rem] text-white bg-[black] mt-[1rem]'>Generate new user</button> */}
         </div>
     </div>
   )
