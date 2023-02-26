@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App w-[100vw] h-[100vh]-x-hidden flex justify-center items-center">
+    <div className="App w-[100vw] h-[100vh] overflow-x-hidden flex place-content-center pt-[2rem]">
 
     {randomUser.length === 0 ? (
       "Loading..."
@@ -43,6 +43,7 @@ function App() {
         city={random.location.city}
         state={random.location.state}
         postcode={random.location.postcode}  
+        nat={random.nat}
        />
       )
       )}
