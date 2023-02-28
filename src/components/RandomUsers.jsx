@@ -16,7 +16,7 @@ const RandomUsers = (props) => {
             <div className='flex gap-[0.5rem]'>
             <p>Name: {props.title},</p>
             <p>{props.firstName}</p>
-            <p>{props.lastName}</p>
+            {/* <p>{props.lastName}</p> */}
             </div>
 
             <p>Gender: {props.gender}</p>
