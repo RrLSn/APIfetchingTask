@@ -30,9 +30,9 @@ function App() {
         key={random.key}
         title={random.name.title}
         firstName={random.name.first}
-        lastName={random.name.last}
+        // lastName={random.name.last}
         email={random.email}
-        img={random.picture.large}
+        // img={random.picture.large}
         phone={random.phone}
         cell={random.cell}
         age={random.dob.age}
